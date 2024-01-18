@@ -19,7 +19,7 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
+   git clone https://github.com/Gajanan-Watt/cv.git
    ```
 
 2. Move to the cloned directory
