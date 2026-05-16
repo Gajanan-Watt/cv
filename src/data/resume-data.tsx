@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "As a Senior Developer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 4 years of experience in working with companies all around the world.",
   // avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  avatarUrl: "https://i.ibb.co/tZ1WBcw/prof.jpg",
+  avatarUrl: "/profile_pic.jpeg",
   personalWebsiteUrl: "https://cv-sigma-pearl.vercel.app/",
   contact: {
     email: "wattamwargaj@gmail.com",
@@ -67,22 +67,21 @@ export const RESUME_DATA = {
     },
   ],
   work: [
-    // {
-    //   company: "Asint, Inc",
-    //   link: "https://asint.net/",
-    //   badges: ["Houston, Texas, United States · Remote"],
-    //   title: "Senior Developer",
-    //   logo: ParabolLogo,
-    //   start: "Aug 2024",
-    //   end: "Current",
-    //   description: [
-        // "Technologies: React, Redux, TailwindCSS, NodeJs, AngularJs, TypeScript, SQL, MongoDB.",
-        // "Developed operational toolkit for admin with a focus on microservices and RESTful APIs using MySQL, ReactJS, Material UI, NodeJS along with google cloud and ci/cd integration for a prominent consulting firm with international clients. This tool has created end-to-end traceability of waste and trucks.",
-        // "Designed reusable components, integrated APIs with the front-end, and implemented key features like Google Analytics integration and password recovery flows. Reduced frontend loading time by 25% and user experience. Upgraded the admin website using React and MaterialUI, resulting in a 50% increase in the operation team's speed and efficiency.",
-        // "Created a specialized toolkit for Consumer Market Insight (CMI) professionals in the FMCG sector, resulting in a 2x increase in quarter on quarter client acquisition.",
-        // "Mentored and guided a team of 3 interns, providing them with hands-on training in frontend development."
-    //   ]
-    // },
+    {
+      company: "Xometry",
+      link: "https://www.xometry.com/",
+      badges: ["Washington DC - Baltimore Area · Remote"],
+      title: "Senior Software Developer",
+      logo: ParabolLogo,
+      start: "Feb 2026",
+      end: "Current",
+      description: [
+        "Technologies: NodeJs, Kafka, React, Redux, TypeScript, SQL, MongoDB.",
+        "Working on a project called SSOT (Single Source of Truth) which will act as a single service for creating jobs/orders for the whole platform.",
+        "Architecting and developing multiple microservices using an event-driven architecture pattern, ensuring scalability and decoupled services across the platform.",
+        "Building distributed systems with Kafka for asynchronous message processing and event streaming, enabling real-time data flow between services."
+      ]
+    },
     {
       company: "Phenom People",
       link: "https://www.phenom.com/",
@@ -90,7 +89,7 @@ export const RESUME_DATA = {
       title: "Product Development Engineer",
       logo: ParabolLogo,
       start: "Nov 2024",
-      end: "Current",
+      end: "Feb 2026",
       description: [
         "Technologies: Java, Play Framework, Python, AWS, Redis, Kafka, AI/ML, MongoDB.",
         "Developing and optimising AI-driven backend services, leveraging LiveKit and Python for real-time data processing and intelligent decision-making in asking job related questions to candidates.",
