@@ -67,20 +67,38 @@ export const RESUME_DATA = {
     },
   ],
   work: [
-    {
-      company: "Asint, Inc",
-      link: "https://asint.net/",
-      badges: ["Houston, Texas, United States · Remote"],
-      title: "Senior Developer",
-      logo: ParabolLogo,
-      start: "Aug 2024",
-      end: "Current",
-      description: [
+    // {
+    //   company: "Asint, Inc",
+    //   link: "https://asint.net/",
+    //   badges: ["Houston, Texas, United States · Remote"],
+    //   title: "Senior Developer",
+    //   logo: ParabolLogo,
+    //   start: "Aug 2024",
+    //   end: "Current",
+    //   description: [
         // "Technologies: React, Redux, TailwindCSS, NodeJs, AngularJs, TypeScript, SQL, MongoDB.",
         // "Developed operational toolkit for admin with a focus on microservices and RESTful APIs using MySQL, ReactJS, Material UI, NodeJS along with google cloud and ci/cd integration for a prominent consulting firm with international clients. This tool has created end-to-end traceability of waste and trucks.",
         // "Designed reusable components, integrated APIs with the front-end, and implemented key features like Google Analytics integration and password recovery flows. Reduced frontend loading time by 25% and user experience. Upgraded the admin website using React and MaterialUI, resulting in a 50% increase in the operation team's speed and efficiency.",
         // "Created a specialized toolkit for Consumer Market Insight (CMI) professionals in the FMCG sector, resulting in a 2x increase in quarter on quarter client acquisition.",
         // "Mentored and guided a team of 3 interns, providing them with hands-on training in frontend development."
+    //   ]
+    // },
+    {
+      company: "Phenom People",
+      link: "https://www.phenom.com/",
+      badges: ["Hyderabad"],
+      title: "Product Development Engineer",
+      logo: ParabolLogo,
+      start: "Nov 2024",
+      end: "Current",
+      description: [
+        "Technologies: Java, Play Framework, Python, AWS, Redis, Kafka, AI/ML, MongoDB.",
+        "Developing and optimising AI-driven backend services, leveraging LiveKit and Python for real-time data processing and intelligent decision-making in asking job related questions to candidates.",
+        "Building scalable and high-performing RESTful API’s using Java and Play framework, ensuring seamless integration with AI modules.",
+        "Implementing AI-powered chatbots and virtual assistants, enhancing user interactions and automatic routine queries.",
+        "Designed and deployed a data pipeline leveraging Kafka, enabling efficient message processing and real-time analytics for AI models.",
+        "Utilizing Redis caching to accelerate response times for AI-driven applications, ensuring low-latency performance",
+        "Coordinating with cross-functional teams to deploy backend services on AWS, providing a reliable and scalable infrastructure."
       ]
     },
     {
@@ -90,7 +108,7 @@ export const RESUME_DATA = {
       title: "Frontend Developer → Full Stack Developer",
       logo: ParabolLogo,
       start: "Mar 2022",
-      end: "Aug 2024",
+      end: "Nov 2024",
       description: [
         "Technologies: React, Redux, TailwindCSS, NodeJs, AngularJs, TypeScript, SQL, MongoDB.",
         "Developed operational toolkit for admin with a focus on microservices and RESTful APIs using MySQL, ReactJS, Material UI, NodeJS along with google cloud and ci/cd integration for a prominent consulting firm with international clients. This tool has created end-to-end traceability of waste and trucks.",
@@ -108,8 +126,11 @@ export const RESUME_DATA = {
       start: "Mar 2020",
       end: "Feb 2022",
       description: [
-        "Developed Full Stack applications using ReactJs for frontend and NodeJs/expressJs for backend, ensuring seamless user experience and efficient server side rendering.",
-        "Optimized state management in complex React applications using Redux, leading to improved application performance and maintainability."
+        "Developed Full Stack applications using ReactJs for frontend and NodeJs/ExpressJs for backend, ensuring seamless user experience and efficient server side rendering.",
+        "Optimised React application performance by leveraging the React Fiber reconciler to efficiently update the DOM, resulting in a smoother user experience and a 20% reduction in page load times for the client’s web application.",
+        "Developed and maintained scalable RESTful API’s using NodeJs and ExpressJs, improving data retrieval speed by 30% and enhancing the overall performance of the client’s backend services.",
+        "Integrated NGINX as a reverse proxy to optimize server performance, handle load balancing, and improve the security of the client’s application, leading to a 25% increase in server response efficiency.",
+        "Implemented Redis caching to reduce database load and improve the responsiveness of the application, resulting in decrease in latency for frequently accessed data.",
       ]
     },
     {
@@ -129,6 +150,8 @@ export const RESUME_DATA = {
   skills: [
     "JavaScript",
     "TypeScript",
+    "Java",
+    "Python",
     "React/Next.js/Remix",
     "Node.js",
     "GraphQL",
@@ -136,6 +159,7 @@ export const RESUME_DATA = {
     "Express.js",
     "WebRTC",
     "SQL",
+    "Kafka",
     "MongoDB",
     "Docker", 
     "Kubernetes"
